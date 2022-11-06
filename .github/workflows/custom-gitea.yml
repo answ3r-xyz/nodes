@@ -19,8 +19,6 @@ jobs:
       fail-fast: false
       matrix:
         oses:
-          - gitea
-          - discordpush
           - node16132
     steps:
       - uses: actions/checkout@v3
@@ -40,4 +38,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/goover/custom:${{ matrix.oses }}
+            ghcr.io/answ3r/custom:${{ matrix.oses }}
