@@ -38,4 +38,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/answ3r/custom:${{ matrix.oses }}
+            ghcr.io/answ3r-xyz/custom:${{ matrix.oses }}
